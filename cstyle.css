@@ -1,0 +1,28 @@
+body,h1{
+	margin : 0;
+	padding : 0;
+	background:#000000;
+	font-family : Gerogia;
+}
+
+
+.text-container{
+	margin-top : 15%;
+	text-align : center;
+}
+.text-container h1{
+	font-size : 8em;
+	color: rgba(17,36,53,.1);
+	background-image : url(color.jpg);
+	background-repeat : repeat;
+	-webkit-background-clip : text;
+	animation : filled 15s linear infinite;
+}
+@keyframes filled{
+	0%{
+		background-position : left 0px top 10px;
+	}
+	50%{
+		background-position : left 800px top 10px;
+	}
+}
